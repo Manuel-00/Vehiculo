@@ -1,0 +1,25 @@
+package ico.fes.poo.componentes;
+
+public class Chasis {
+    private String color;
+    private boolean resistente;
+public Chasis(){
+}
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public boolean isResistente() {
+        return resistente;
+    }
+
+    public void setResistente(boolean resistente) {
+        this.resistente = resistente;
+    }
+
+}
