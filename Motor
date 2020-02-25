@@ -1,0 +1,26 @@
+package ico.fes.poo.componentes;
+
+
+public class Motor {
+    private float tamaño;
+    private String modelo;
+public Motor(){
+}
+
+    public float getTamaño() {
+        return tamaño;
+    }
+
+    public void setTamaño(float tamaño) {
+        this.tamaño = tamaño;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+}
