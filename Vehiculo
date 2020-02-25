@@ -1,0 +1,92 @@
+package ico.fes.poo;
+import ico.fes.poo.componentes.Llanta;
+import ico.fes.poo.componentes.Motor;
+import ico.fes.poo.componentes.Chasis;
+
+public class Vehiculos {
+    private String color; 
+    private String modelo;
+    private Llanta diametro;
+    private Llanta marca;
+    private Motor tamaño;
+    private Motor modelo2;
+    private Chasis color2;
+    private Chasis resistente;
+    public Vehiculos(){ 
+    }
+    public Vehiculos(String color, String modelo, Llanta diametro, Llanta marca, Motor tamaño, Motor modelo2, Chasis color2, Chasis resistente) {
+        this.color = color;
+        this.modelo = modelo;
+        this.diametro = diametro;
+        this.marca = marca;
+        this.tamaño = tamaño;
+        this.modelo2 = modelo2;
+        this.color2 = color2;
+        this.resistente = resistente;
+    }    
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public Llanta getDiametro() {
+        return diametro;
+    }
+
+    public void setDiametro(Llanta diametro) {
+        this.diametro = diametro;
+    }
+
+    public Llanta getMarca() {
+        return marca;
+    }
+
+    public void setMarca(Llanta marca) {
+        this.marca = marca;
+    }
+
+    public Motor getTamaño() {
+        return tamaño;
+    }
+
+    public void setTamaño(Motor tamaño) {
+        this.tamaño = tamaño;
+    }
+
+    public Motor getModelo2() {
+        return modelo2;
+    }
+
+    public void setModelo2(Motor modelo2) {
+        this.modelo2 = modelo2;
+    }
+
+    public Chasis getColor2() {
+        return color2;
+    }
+
+    public void setColor2(Chasis color2) {
+        this.color2 = color2;
+    }
+
+    public Chasis getResistente() {
+        return resistente;
+    }
+
+    public void setResistente(Chasis resistente) {
+        this.resistente = resistente;
+    }
+
+}
